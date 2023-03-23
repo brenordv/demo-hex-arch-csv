@@ -28,6 +28,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Repositories", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Infrastructure.Di", "HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj", "{981BFB45-2205-431C-8D87-AD72DFAEE068}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98. Documentation", "98. Documentation", "{2A8C51FB-21CC-4E85-94BA-74AA7989969C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
