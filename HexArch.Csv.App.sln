@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Applications", "00. Applications", "{0C78E700-C03C-4863-9045-7DA90D6B3721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Applications.Cli", "HexArch.Csv.Applications.Cli\HexArch.Csv.Applications.Cli.csproj", "{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Domain", "01. Domain", "{3D104D0A-71BA-40B8-B6E3-4EDC7831B135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain", "HexArch.Csv.Domain\HexArch.Csv.Domain.csproj", "{B283DECA-5F5F-429E-9CB4-EB11B1098158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Tests", "99. Tests", "{B6478DF6-30D0-40ED-AF4E-6BFD82DE44C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Test", "HexArch.Csv.Domain.Test\HexArch.Csv.Domain.Test.csproj", "{393C3431-F931-485B-9737-46BE57288553}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Domain.Services", "02. Domain.Services", "{54FA92B9-38F5-4B19-A931-3B4E94317028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Repositories", "03. Repositories", "{108403AA-56C3-47F9-BD9E-A6BF2DBF309A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Infrastructure", "04. Infrastructure", "{25585790-E5EF-400E-8670-02F7B2CBCBEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. AppServices", "05. AppServices", "{71C8208B-B9B6-4D98-8326-72E4BB2790AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.AppServices.Cli", "HexArch.Csv.AppServices.Cli\HexArch.Csv.AppServices.Cli.csproj", "{6D8377ED-0DA4-4532-A09E-33519526A34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Services", "HexArch.Csv.Domain.Services\HexArch.Csv.Domain.Services.csproj", "{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Repositories", "HexArch.Csv.Repositories\HexArch.Csv.Repositories.csproj", "{4F722B49-073C-45E1-A16F-A8E5A19E225E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Infrastructure.Di", "HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj", "{981BFB45-2205-431C-8D87-AD72DFAEE068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B283DECA-5F5F-429E-9CB4-EB11B1098158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B283DECA-5F5F-429E-9CB4-EB11B1098158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B283DECA-5F5F-429E-9CB4-EB11B1098158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B283DECA-5F5F-429E-9CB4-EB11B1098158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393C3431-F931-485B-9737-46BE57288553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393C3431-F931-485B-9737-46BE57288553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393C3431-F931-485B-9737-46BE57288553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393C3431-F931-485B-9737-46BE57288553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8377ED-0DA4-4532-A09E-33519526A34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8377ED-0DA4-4532-A09E-33519526A34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8377ED-0DA4-4532-A09E-33519526A34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8377ED-0DA4-4532-A09E-33519526A34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F722B49-073C-45E1-A16F-A8E5A19E225E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F722B49-073C-45E1-A16F-A8E5A19E225E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F722B49-073C-45E1-A16F-A8E5A19E225E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F722B49-073C-45E1-A16F-A8E5A19E225E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{B283DECA-5F5F-429E-9CB4-EB11B1098158} = {3D104D0A-71BA-40B8-B6E3-4EDC7831B135}
+		{393C3431-F931-485B-9737-46BE57288553} = {B6478DF6-30D0-40ED-AF4E-6BFD82DE44C6}
+		{6D8377ED-0DA4-4532-A09E-33519526A34D} = {71C8208B-B9B6-4D98-8326-72E4BB2790AD}
+		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
+		{4F722B49-073C-45E1-A16F-A8E5A19E225E} = {108403AA-56C3-47F9-BD9E-A6BF2DBF309A}
+		{981BFB45-2205-431C-8D87-AD72DFAEE068} = {25585790-E5EF-400E-8670-02F7B2CBCBEC}
+	EndGlobalSection
+EndGlobal
