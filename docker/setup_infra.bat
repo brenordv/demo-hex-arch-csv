@@ -1,0 +1,3 @@
+build.bat
+sqlserver_container.bat
+run_migrations.bat
