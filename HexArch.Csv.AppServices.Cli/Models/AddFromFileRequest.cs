@@ -3,7 +3,7 @@
 public record AddFromFileRequest
 {
     public Guid RequestId { get; } = Guid.NewGuid();
-    public DateTime RequestedAt { get; init; } = DateTime.UtcNow;
+    public DateTime RequestedAt { get; init; } = DateTime.Now;
     public string Filename { get; init; }
 
     public static implicit operator FileInfo(AddFromFileRequest request) => new(request.Filename);

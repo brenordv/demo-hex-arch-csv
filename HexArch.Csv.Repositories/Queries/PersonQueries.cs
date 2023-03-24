@@ -11,10 +11,10 @@ public static class PersonQueries
                     Id AS [Id],
                     Name AS [Name],
                     BirthDate AS [BirthDate]
-                FROM People".Minify();
+                FROM person".Minify();
         
         public static readonly string Insert = @"
-                INSERT INTO People (Name, BirthDate)
+                INSERT INTO person (Name, BirthDate)
                 VALUES (@Name, @BirthDate)".Minify();
         
     }
