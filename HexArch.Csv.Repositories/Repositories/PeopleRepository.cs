@@ -17,7 +17,7 @@ public class PeopleRepository : BaseRepository, IPeopleRepository
         return HandleDbErrors(() =>
         {
             using var connection = GetConnection();
-            connection.Execute(PersonQueries.Queries.Insert, person);
+            connection.Execute(PersonQueries.Queries.Insert, new { person.Id, person.Name, person.BirthDate });
             return person;
         }, typeof(Person));
     }
