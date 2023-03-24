@@ -1,0 +1,1 @@
+docker run --rm --net="host" --name flyway --env-file env.list flywaysql -mixed="true" -url=jdbc:sqlserver://172.23.224.1:1433;encrypt=true;trustServerCertificate=true; -user=sa -password=just@demo#not4real migrate
