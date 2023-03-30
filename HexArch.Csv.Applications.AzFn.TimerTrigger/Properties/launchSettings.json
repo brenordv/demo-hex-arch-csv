@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "HexArch.Csv.Applications.AzFn.TimerTrigger": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7134",
+      "launchBrowser": false
+    }
+  }
+}

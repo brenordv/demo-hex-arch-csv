@@ -3,7 +3,7 @@ using HexArch.Csv.Domain.Extensions;
 using HexArch.Csv.Domain.Interfaces.Services;
 using HexArch.Csv.Domain.Validations;
 
-namespace HexArch.Csv.Domain.Services.Services;
+namespace HexArch.Csv.Domain.Services.Extensions.IoSystem.Services;
 
 public class FileReaderService : IFileReaderService
 {

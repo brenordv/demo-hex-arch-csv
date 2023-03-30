@@ -31,6 +31,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98. Documentation", "98. Documentation", "{2A8C51FB-21CC-4E85-94BA-74AA7989969C}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
+		TestRequests\minimalapi-requests.http = TestRequests\minimalapi-requests.http
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "97. Scripts", "97. Scripts", "{123A183A-7659-4DAE-B657-2070859B0B92}"
@@ -44,6 +45,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "97. Scripts", "97. Scripts"
 		docker\run_migrations.bat = docker\run_migrations.bat
 		docker\setup_infra.bat = docker\setup_infra.bat
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.AppServices.Api", "HexArch.Csv.AppServices.Api\HexArch.Csv.AppServices.Api.csproj", "{541D9EB3-438F-4628-BBFB-24F997826B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Applications.MinimalApi", "HexArch.Csv.Applications.MinimalApi\HexArch.Csv.Applications.MinimalApi.csproj", "{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Applications.AzFn.HttpTrigger", "HexArch.Csv.Applications.AzFn.HttpTrigger\HexArch.Csv.Applications.AzFn.HttpTrigger.csproj", "{63A1458C-4827-4112-9BE5-8EF49120000B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Services.Test", "HexArch.Csv.Domain.Services.Test\HexArch.Csv.Domain.Services.Test.csproj", "{BE634618-9FA4-4F91-BC26-183C013F03BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Applications.AzFn.TimerTrigger", "HexArch.Csv.Applications.AzFn.TimerTrigger\HexArch.Csv.Applications.AzFn.TimerTrigger.csproj", "{1014CA3E-5B45-4B47-911A-8E1381ED6D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Services.Extensions.IoSystem", "HexArch.Csv.Domain.Services.Extensions.IoSystem\HexArch.Csv.Domain.Services.Extensions.IoSystem.csproj", "{AA2F1A28-1A9F-4C60-A103-697B4336DB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Services.Extensions.AzStorage", "HexArch.Csv.Domain.Services.Extensions.AzStorage\HexArch.Csv.Domain.Services.Extensions.AzStorage.csproj", "{34DD766A-D1A2-4522-9F58-00B713E71697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +94,34 @@ Global
 		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
@@ -88,5 +131,12 @@ Global
 		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
 		{4F722B49-073C-45E1-A16F-A8E5A19E225E} = {108403AA-56C3-47F9-BD9E-A6BF2DBF309A}
 		{981BFB45-2205-431C-8D87-AD72DFAEE068} = {25585790-E5EF-400E-8670-02F7B2CBCBEC}
+		{541D9EB3-438F-4628-BBFB-24F997826B5B} = {71C8208B-B9B6-4D98-8326-72E4BB2790AD}
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{63A1458C-4827-4112-9BE5-8EF49120000B} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{BE634618-9FA4-4F91-BC26-183C013F03BE} = {B6478DF6-30D0-40ED-AF4E-6BFD82DE44C6}
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
+		{34DD766A-D1A2-4522-9F58-00B713E71697} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
 	EndGlobalSection
 EndGlobal

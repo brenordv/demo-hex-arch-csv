@@ -16,7 +16,7 @@ public static partial class Validators
         throw new HexValidationException($"Text {text} is longer than {size} characters.");
     }
 
-    private static void EnsureTextIsNotEmpty(string text)
+    public static void EnsureTextIsNotEmpty(string text)
     {
         if (!string.IsNullOrWhiteSpace(text)) return;
         throw new HexValidationException($"Text {text} is empty.");
