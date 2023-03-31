@@ -18,7 +18,7 @@ public  class TimerTriggerFunction
     }
 
     [FunctionName("TimerTriggerFunction")]
-    public async Task RunAsync([TimerTrigger("0 */5 * * * *", RunOnStartup = true)] TimerInfo myTimer)
+    public void Run([TimerTrigger("0 */5 * * * *", RunOnStartup = true)] TimerInfo myTimer)
     {
         var request = new AddFromFileRequest
         {

@@ -13,7 +13,7 @@ public class FileReaderService : IFileReaderService
     private readonly string _containerName;
     public FileReaderService(IConfiguration configuration)
     {
-        _blobServiceClient = new BlobServiceClient(configuration["BlobConnectionString"]);
+        _blobServiceClient = new BlobServiceClient(configuration.GetConnectionString("BlobConnectionString"));
         _containerName = configuration["ContainerName"];
     }
     
@@ -24,13 +24,17 @@ public class FileReaderService : IFileReaderService
         var fileContent = GetFileContent(file.ToString());
         
         foreach (var line in fileContent.Split(Environment.NewLine))
+        {
+            if (string.IsNullOrWhiteSpace(line)) continue;
             yield return line.ToPerson();
+        }            
+            
     }
 
     private string GetFileContent(string fileReference)
     {
         Validators.EnsureTextIsNotEmpty(fileReference);
-        
+
         var containerClient = _blobServiceClient.GetBlobContainerClient(_containerName);
         var blobClient = containerClient.GetBlobClient(fileReference);
         
