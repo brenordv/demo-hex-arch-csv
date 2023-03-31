@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\HexArch.Csv.Domain\HexArch.Csv.Domain.csproj" />
+        <ProjectReference Include="..\HexArch.Csv.Domain\HexArch.Csv.Domain.csproj"/>
     </ItemGroup>
 
 </Project>

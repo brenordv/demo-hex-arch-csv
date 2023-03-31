@@ -8,6 +8,7 @@ using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
 [assembly: FunctionsStartup(typeof(Startup))]
+
 namespace HexArch.Csv.Applications.AzFn.TimerTrigger;
 
 public class Startup : FunctionsStartup

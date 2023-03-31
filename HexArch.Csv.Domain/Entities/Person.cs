@@ -4,9 +4,9 @@ namespace HexArch.Csv.Domain.Entities;
 
 public record Person
 {
+    private readonly DateTime _birthDate;
     private readonly int _id;
     private readonly string _name;
-    private readonly DateTime _birthDate;
 
     public int Id
     {

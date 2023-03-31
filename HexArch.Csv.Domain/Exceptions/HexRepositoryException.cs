@@ -3,7 +3,7 @@
 namespace HexArch.Csv.Domain.Exceptions;
 
 [Serializable]
-public class HexRepositoryException: HexArchCsvException
+public class HexRepositoryException : HexArchCsvException
 {
     public HexRepositoryException()
     {

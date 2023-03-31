@@ -4,10 +4,10 @@ namespace HexArch.Csv.Repositories.Helpers;
 
 public static class SqlErrorStringHelper
 {
-    private static readonly Regex FkOperationPattern = new Regex(@"The (\w+) statement", RegexOptions.IgnoreCase);
+    private static readonly Regex FkOperationPattern = new(@"The (\w+) statement", RegexOptions.IgnoreCase);
 
-    private static readonly Regex NullColumnPattern =
-        new Regex(@"into column '(\w+)', table '(.+)'", RegexOptions.IgnoreCase);
+    private static readonly Regex
+        NullColumnPattern = new(@"into column '(\w+)', table '(.+)'", RegexOptions.IgnoreCase);
 
     public static string GetOperationFromFkMessage(string message)
     {

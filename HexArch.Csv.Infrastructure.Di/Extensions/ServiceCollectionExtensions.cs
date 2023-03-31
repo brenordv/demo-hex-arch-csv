@@ -16,24 +16,24 @@ public static class ServiceCollectionExtensions
         //services.AddLogging();
         return services;
     }
-    
+
     public static IServiceCollection AddAppSettings(this IServiceCollection services)
     {
         var configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .AddJsonFile("appsettings.json", true, true)
             .Build();
-        
+
         services.AddSingleton(typeof(IConfiguration), configuration);
         return services;
     }
-    
+
     private static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddSingleton<IPeopleRepository, PeopleRepository>();
         return services;
     }
-    
+
     private static IServiceCollection AddServices(this IServiceCollection services)
     {
         services.AddScoped<IPeopleService, PeopleService>();

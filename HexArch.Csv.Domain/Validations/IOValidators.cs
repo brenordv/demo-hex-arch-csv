@@ -9,7 +9,7 @@ public static partial class Validators
         if (file.Exists) return;
         throw new HexValidationException($"File {file.FullName} does not exist.");
     }
-    
+
     public static void EnsureFileIsNotEmpty(FileInfo file)
     {
         if (file.Length > 0) return;

@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Threading.Tasks;
 using HexArch.Csv.AppServices.Cli.Interfaces;
 using HexArch.Csv.AppServices.Cli.Models;
 using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Host;
-using Microsoft.Extensions.Logging;
 
 namespace HexArch.Csv.Applications.AzFn.TimerTrigger;
 
-public  class TimerTriggerFunction
+public class TimerTriggerFunction
 {
     private readonly ICliAppService _cliAppService;
 

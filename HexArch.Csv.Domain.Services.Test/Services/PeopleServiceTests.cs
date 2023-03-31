@@ -29,7 +29,7 @@ public class PeopleServiceTests
         var people = new List<Person>
         {
             new() { Name = "Alice", BirthDate = new DateTime(1990, 1, 1) },
-            new() { Name = "Bob", BirthDate = new DateTime(1995, 2, 2) },
+            new() { Name = "Bob", BirthDate = new DateTime(1995, 2, 2) }
         };
 
         // Act
@@ -62,16 +62,13 @@ public class PeopleServiceTests
         {
             new() { Id = 1, Name = "Alice", BirthDate = new DateTime(1990, 1, 1) },
             new() { Id = 2, Name = "Bob", BirthDate = new DateTime(1995, 2, 2) },
-            new() { Id = 3, Name = "Charlie", BirthDate = new DateTime(2000, 3, 3) },
+            new() { Id = 3, Name = "Charlie", BirthDate = new DateTime(2000, 3, 3) }
         };
 
         _peopleRepositoryMock.Setup(r => r.Add(It.IsAny<Person>()))
             .Callback<Person>(p =>
             {
-                if (p.Id == 2)
-                {
-                    throw new Exception("Simulated error");
-                }
+                if (p.Id == 2) throw new Exception("Simulated error");
             });
 
         // Act

@@ -6,7 +6,7 @@ public static class ConsolePrinter
 {
     private const string Line =
         "--------------------------------------------------------------------------------------------------------------------------------";
-    
+
     public static void PrintHeader()
     {
         Console.WriteLine(@" __    __   __________   ___         ___      .______        ______  __    __                  ______     _______.____    ____ ");
@@ -23,10 +23,9 @@ public static class ConsolePrinter
     {
         Console.WriteLine("Usage: hexarchcli.exe [filename.csv]");
     }
-    
+
     public static void PrintFooter()
     {
         Console.WriteLine(Line);
     }
-    
 }

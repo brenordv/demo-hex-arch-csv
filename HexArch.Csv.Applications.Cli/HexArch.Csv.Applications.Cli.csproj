@@ -12,9 +12,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="appsettings.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
     <ItemGroup>
@@ -25,9 +25,9 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\HexArch.Csv.AppServices.Cli\HexArch.Csv.AppServices.Cli.csproj" />
-      <ProjectReference Include="..\HexArch.Csv.Domain.Services.Extensions.IoSystem\HexArch.Csv.Domain.Services.Extensions.IoSystem.csproj" />
-      <ProjectReference Include="..\HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj" />
+        <ProjectReference Include="..\HexArch.Csv.AppServices.Cli\HexArch.Csv.AppServices.Cli.csproj"/>
+        <ProjectReference Include="..\HexArch.Csv.Domain.Services.Extensions.IoSystem\HexArch.Csv.Domain.Services.Extensions.IoSystem.csproj"/>
+        <ProjectReference Include="..\HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj"/>
     </ItemGroup>
 
 </Project>

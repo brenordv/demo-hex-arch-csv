@@ -7,17 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Azure.Storage.Blobs" Version="12.15.1" />
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.15.1"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\HexArch.Csv.Domain\HexArch.Csv.Domain.csproj" />
+        <ProjectReference Include="..\HexArch.Csv.Domain\HexArch.Csv.Domain.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
-        <HintPath>C:\Users\raccoon\.AzureToolsForIntelliJ\AzureFunctionsCoreTools\v4\4.35.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
-      </Reference>
+        <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+            <HintPath>C:\Users\raccoon\.AzureToolsForIntelliJ\AzureFunctionsCoreTools\v4\4.35.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>
