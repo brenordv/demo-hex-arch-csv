@@ -6,5 +6,8 @@ public record AddFromFileRequest
     public DateTime RequestedAt { get; init; } = DateTime.Now;
     public string Filename { get; init; }
 
-    public static implicit operator FileInfo(AddFromFileRequest request) => new(request.Filename);
+    public static implicit operator FileInfo(AddFromFileRequest request)
+    {
+        return new(request.Filename);
+    }
 }

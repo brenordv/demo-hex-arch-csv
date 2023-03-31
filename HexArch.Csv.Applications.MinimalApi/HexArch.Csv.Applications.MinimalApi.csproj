@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\HexArch.Csv.AppServices.Api\HexArch.Csv.AppServices.Api.csproj" />
-      <ProjectReference Include="..\HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj" />
+        <ProjectReference Include="..\HexArch.Csv.AppServices.Api\HexArch.Csv.AppServices.Api.csproj"/>
+        <ProjectReference Include="..\HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />        
-      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
 </Project>

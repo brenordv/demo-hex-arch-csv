@@ -10,7 +10,7 @@ public static class AddFromFileRequestExtensions
     {
         if (request is null)
             throw new HexValidationException("Request is null");
-        
+
         Validators.EnsureIsNotEmptyGuid(request.RequestId);
         Validators.EnsureTextIsNotLongerThan(request.Filename, 255);
         Validators.EnsureDateIsNotMax(request.RequestedAt);

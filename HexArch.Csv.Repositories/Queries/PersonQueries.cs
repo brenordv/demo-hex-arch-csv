@@ -12,10 +12,9 @@ public static class PersonQueries
                     Name AS [Name],
                     BirthDate AS [BirthDate]
                 FROM person".Minify();
-        
+
         public static readonly string Insert = @"
                 INSERT INTO person (Name, BirthDate)
                 VALUES (@Name, @BirthDate)".Minify();
-        
     }
 }

@@ -14,13 +14,13 @@ public abstract class BaseRepository
     {
         _configuration = configuration;
     }
-    
+
     protected IDbConnection GetConnection()
     {
         return new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
     }
 
-    
+
     public TransactionScope BeginTransaction()
     {
         return new TransactionScope();
