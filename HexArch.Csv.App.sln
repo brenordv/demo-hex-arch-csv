@@ -1,16 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Applications", "00. Applications", "{0C78E700-C03C-4863-9045-7DA90D6B3721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Applications.Cli", "HexArch.Csv.Applications.Cli\HexArch.Csv.Applications.Cli.csproj", "{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Applications.Cli", "HexArch.Csv.Applications.Cli\HexArch.Csv.Applications.Cli.csproj", "{AFA9F1AB-41F8-44FA-B422-92F352AD3F91}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Domain", "01. Domain", "{3D104D0A-71BA-40B8-B6E3-4EDC7831B135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain", "HexArch.Csv.Domain\HexArch.Csv.Domain.csproj", "{B283DECA-5F5F-429E-9CB4-EB11B1098158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Domain", "HexArch.Csv.Domain\HexArch.Csv.Domain.csproj", "{B283DECA-5F5F-429E-9CB4-EB11B1098158}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Tests", "99. Tests", "{B6478DF6-30D0-40ED-AF4E-6BFD82DE44C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Test", "HexArch.Csv.Domain.Test\HexArch.Csv.Domain.Test.csproj", "{393C3431-F931-485B-9737-46BE57288553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Domain.Test", "HexArch.Csv.Domain.Test\HexArch.Csv.Domain.Test.csproj", "{393C3431-F931-485B-9737-46BE57288553}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Domain.Services", "02. Domain.Services", "{54FA92B9-38F5-4B19-A931-3B4E94317028}"
 EndProject
@@ -20,30 +23,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Infrastructure", "04. I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. AppServices", "05. AppServices", "{71C8208B-B9B6-4D98-8326-72E4BB2790AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.AppServices.Cli", "HexArch.Csv.AppServices.Cli\HexArch.Csv.AppServices.Cli.csproj", "{6D8377ED-0DA4-4532-A09E-33519526A34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.AppServices.Cli", "HexArch.Csv.AppServices.Cli\HexArch.Csv.AppServices.Cli.csproj", "{6D8377ED-0DA4-4532-A09E-33519526A34D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Domain.Services", "HexArch.Csv.Domain.Services\HexArch.Csv.Domain.Services.csproj", "{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Domain.Services", "HexArch.Csv.Domain.Services\HexArch.Csv.Domain.Services.csproj", "{E63BCB57-9BC3-48FE-8040-D0CEC2D77562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Repositories", "HexArch.Csv.Repositories\HexArch.Csv.Repositories.csproj", "{4F722B49-073C-45E1-A16F-A8E5A19E225E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Repositories", "HexArch.Csv.Repositories\HexArch.Csv.Repositories.csproj", "{4F722B49-073C-45E1-A16F-A8E5A19E225E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexArch.Csv.Infrastructure.Di", "HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj", "{981BFB45-2205-431C-8D87-AD72DFAEE068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Infrastructure.Di", "HexArch.Csv.Infrastructure.Di\HexArch.Csv.Infrastructure.Di.csproj", "{981BFB45-2205-431C-8D87-AD72DFAEE068}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98. Documentation", "98. Documentation", "{2A8C51FB-21CC-4E85-94BA-74AA7989969C}"
 	ProjectSection(SolutionItems) = preProject
+		TestRequests\minimalapi-requests.http = TestRequests\minimalapi-requests.http
 		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "97. Scripts", "97. Scripts", "{123A183A-7659-4DAE-B657-2070859B0B92}"
 	ProjectSection(SolutionItems) = preProject
+		docker\build.bat = docker\build.bat
 		docker\Dockerfile = docker\Dockerfile
 		docker\env.list = docker\env.list
 		docker\conf\flyway.conf = docker\conf\flyway.conf
-		docker\build.bat = docker\build.bat
-		docker\sqlserver_container.bat = docker\sqlserver_container.bat
-		docker\sql\V1__create_database.sql = docker\sql\V1__create_database.sql
 		docker\run_migrations.bat = docker\run_migrations.bat
 		docker\setup_infra.bat = docker\setup_infra.bat
+		docker\sqlserver_container.bat = docker\sqlserver_container.bat
+		docker\sql\V1__create_database.sql = docker\sql\V1__create_database.sql
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.AppServices.Api", "HexArch.Csv.AppServices.Api\HexArch.Csv.AppServices.Api.csproj", "{541D9EB3-438F-4628-BBFB-24F997826B5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Applications.MinimalApi", "HexArch.Csv.Applications.MinimalApi\HexArch.Csv.Applications.MinimalApi.csproj", "{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Applications.AzFn.HttpTrigger", "HexArch.Csv.Applications.AzFn.HttpTrigger\HexArch.Csv.Applications.AzFn.HttpTrigger.csproj", "{63A1458C-4827-4112-9BE5-8EF49120000B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Domain.Services.Test", "HexArch.Csv.Domain.Services.Test\HexArch.Csv.Domain.Services.Test.csproj", "{BE634618-9FA4-4F91-BC26-183C013F03BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Applications.AzFn.TimerTrigger", "HexArch.Csv.Applications.AzFn.TimerTrigger\HexArch.Csv.Applications.AzFn.TimerTrigger.csproj", "{1014CA3E-5B45-4B47-911A-8E1381ED6D76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Domain.Services.Extensions.IoSystem", "HexArch.Csv.Domain.Services.Extensions.IoSystem\HexArch.Csv.Domain.Services.Extensions.IoSystem.csproj", "{AA2F1A28-1A9F-4C60-A103-697B4336DB32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexArch.Csv.Domain.Services.Extensions.AzStorage", "HexArch.Csv.Domain.Services.Extensions.AzStorage\HexArch.Csv.Domain.Services.Extensions.AzStorage.csproj", "{34DD766A-D1A2-4522-9F58-00B713E71697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +97,37 @@ Global
 		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981BFB45-2205-431C-8D87-AD72DFAEE068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541D9EB3-438F-4628-BBFB-24F997826B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A1458C-4827-4112-9BE5-8EF49120000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE634618-9FA4-4F91-BC26-183C013F03BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DD766A-D1A2-4522-9F58-00B713E71697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFA9F1AB-41F8-44FA-B422-92F352AD3F91} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
@@ -88,5 +137,12 @@ Global
 		{E63BCB57-9BC3-48FE-8040-D0CEC2D77562} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
 		{4F722B49-073C-45E1-A16F-A8E5A19E225E} = {108403AA-56C3-47F9-BD9E-A6BF2DBF309A}
 		{981BFB45-2205-431C-8D87-AD72DFAEE068} = {25585790-E5EF-400E-8670-02F7B2CBCBEC}
+		{541D9EB3-438F-4628-BBFB-24F997826B5B} = {71C8208B-B9B6-4D98-8326-72E4BB2790AD}
+		{48EECB4F-1643-4FB4-BE5F-E35D409A01CD} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{63A1458C-4827-4112-9BE5-8EF49120000B} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{BE634618-9FA4-4F91-BC26-183C013F03BE} = {B6478DF6-30D0-40ED-AF4E-6BFD82DE44C6}
+		{1014CA3E-5B45-4B47-911A-8E1381ED6D76} = {0C78E700-C03C-4863-9045-7DA90D6B3721}
+		{AA2F1A28-1A9F-4C60-A103-697B4336DB32} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
+		{34DD766A-D1A2-4522-9F58-00B713E71697} = {54FA92B9-38F5-4B19-A931-3B4E94317028}
 	EndGlobalSection
 EndGlobal

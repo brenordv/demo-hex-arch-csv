@@ -11,15 +11,20 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
     {
+        services.AddRepositories();
+        services.AddServices();
+        //services.AddLogging();
+        return services;
+    }
+    
+    public static IServiceCollection AddAppSettings(this IServiceCollection services)
+    {
         var configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
             .Build();
         
         services.AddSingleton(typeof(IConfiguration), configuration);
-        services.AddRepositories();
-        services.AddServices();
-        services.AddLogging();
         return services;
     }
     

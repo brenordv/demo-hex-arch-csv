@@ -1,0 +1,76 @@
+﻿### Minimal API - Adds 62 new persons to the database
+POST https://localhost:5001/
+Content-Type: application/json
+
+
+{
+  "requestedAt": "2023-03-27T02:38:32",
+  "payload": "Noemie Dicki,1996-04-20\nKariane Thompson,1999-04-05\nBryce Rohan,2003-12-23\nJairo Hoppe,1991-04-29\nBillie Lynch,1995-08-09\nKody Mertz,1990-02-19\nErik Lehner,1987-11-28\nClovis Hilpert,1984-06-06\nMack Predovic,2006-07-23\nHallie Nolan,2022-11-18\nCleo Feil,2021-04-18\nLela Waelchi,1999-05-26\nGreta Ernser,1994-05-15\nYasmine Corwin,1998-12-19\nJack Crist,1999-03-28\nBrennan Vandervort,2020-03-14\nNorene Cummerata,2018-07-01\nPolly Hermiston,1986-08-28\nAlyson Hilll,1973-11-18\nNoe Borer,1988-06-08\nAdah Sauer,2001-10-29\nBrenna Kuhlman,1997-12-25\nSammy Smith,1988-10-18\nPriscilla Conn,2010-02-16\nKayla Ernser,1990-12-20\nJennifer Vandervort,1999-09-29\nDuane O'Reilly,1979-11-14\nZackery Barton,1980-04-07\nAurore Macejkovic,1984-04-16\nLarissa Greenholt,2013-03-03\nJulie Johnson,1980-04-06\nFleta Harris,2000-08-14\nTaryn Kohler,2020-08-21\nCade Schaden,2006-05-24\nGerda McKenzie,2007-10-25\nJordy West,1991-05-17\nCathy Runte,1988-10-29\nHowell Bednar,1971-12-27\nGuido Metz,1998-06-22\nEtha Hettinger,2001-04-23\nSavanna Stamm,2001-05-03\nBridie Reichert,2008-07-25\nRussell Runolfsson,2005-08-14\nBeryl Bruen,1976-10-03\nHiram Breitenberg,1984-12-04\nDelfina Hammes,1973-11-03\nDarlene Kuhn,2008-10-04\nCorrine Dibbert,2018-12-08\nChristy Kessler,1999-05-29\nHyman Weimann,1970-08-24\nLorenzo Langworth,1987-05-20\nKendall Kshlerin,2002-07-20\nFredrick Lockman,2002-02-09\nSandra Marquardt,1976-06-02\nAlba Altenwerth,1999-01-13\nDavion Dibbert,1993-07-02\nLamar Lindgren,1971-11-11\nMadaline Bauch,2021-12-12\nAditya Hintz,1988-03-28\nSabrina Weissnat,1985-04-19\nElmer Marks,1991-11-11\nBaylee Kreiger,1975-07-27"
+}
+
+### AzFunction Http - Adds 62 new persons to the database
+POST http://localhost:7071/api/HttpTriggerFunction
+Content-Type: text/plain
+
+Noemie Dicki,1996-04-20
+Kariane Thompson,1999-04-05
+Bryce Rohan,2003-12-23
+Jairo Hoppe,1991-04-29
+Billie Lynch,1995-08-09
+Kody Mertz,1990-02-19
+Erik Lehner,1987-11-28
+Clovis Hilpert,1984-06-06
+Mack Predovic,2006-07-23
+Hallie Nolan,2022-11-18
+Cleo Feil,2021-04-18
+Lela Waelchi,1999-05-26
+Greta Ernser,1994-05-15
+Yasmine Corwin,1998-12-19
+Jack Crist,1999-03-28
+Brennan Vandervort,2020-03-14
+Norene Cummerata,2018-07-01
+Polly Hermiston,1986-08-28
+Alyson Hilll,1973-11-18
+Noe Borer,1988-06-08
+Adah Sauer,2001-10-29
+Brenna Kuhlman,1997-12-25
+Sammy Smith,1988-10-18
+Priscilla Conn,2010-02-16
+Kayla Ernser,1990-12-20
+Jennifer Vandervort,1999-09-29
+Duane O'Reilly,1979-11-14
+Zackery Barton,1980-04-07
+Aurore Macejkovic,1984-04-16
+Larissa Greenholt,2013-03-03
+Julie Johnson,1980-04-06
+Fleta Harris,2000-08-14
+Taryn Kohler,2020-08-21
+Cade Schaden,2006-05-24
+Gerda McKenzie,2007-10-25
+Jordy West,1991-05-17
+Cathy Runte,1988-10-29
+Howell Bednar,1971-12-27
+Guido Metz,1998-06-22
+Etha Hettinger,2001-04-23
+Savanna Stamm,2001-05-03
+Bridie Reichert,2008-07-25
+Russell Runolfsson,2005-08-14
+Beryl Bruen,1976-10-03
+Hiram Breitenberg,1984-12-04
+Delfina Hammes,1973-11-03
+Darlene Kuhn,2008-10-04
+Corrine Dibbert,2018-12-08
+Christy Kessler,1999-05-29
+Hyman Weimann,1970-08-24
+Lorenzo Langworth,1987-05-20
+Kendall Kshlerin,2002-07-20
+Fredrick Lockman,2002-02-09
+Sandra Marquardt,1976-06-02
+Alba Altenwerth,1999-01-13
+Davion Dibbert,1993-07-02
+Lamar Lindgren,1971-11-11
+Madaline Bauch,2021-12-12
+Aditya Hintz,1988-03-28
+Sabrina Weissnat,1985-04-19
+Elmer Marks,1991-11-11
+Baylee Kreiger,1975-07-27
